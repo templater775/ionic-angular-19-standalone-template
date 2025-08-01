@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "types": ["cypress", "node"],
+    "isolatedModules": false
+  },
+  "include": [
+    "cypress-template/**/*.ts",
+    "cypress-template/**/*.tsx",
+    "cypress-template/**/*.js",
+    "src/**/*.d.ts"
+  ]
+}
+
